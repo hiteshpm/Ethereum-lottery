@@ -1,16 +1,17 @@
 {
-  "name": "inbox",
+  "name": "ethContract",
   "version": "1.0.0",
-  "description": "lottery contract",
-  "main": "index.js",
+  "description": "Ethereum contract",
+  
   "scripts": {
-    "test": "mocha"
+    "start": "node server.js"
   },
   "author": "hitesh",
   "license": "ISC",
   "dependencies": {
-    "ganache-cli": "^6.1.0",
-    "mocha": "^5.1.1",
+    "body-parser": "^1.18.3",
+    "ethereum-input-data-decoder": "0.0.12",
+    "express": "^4.16.3",
     "solc": "^0.4.23",
     "truffle-hdwallet-provider": "0.0.5",
     "web3": "^1.0.0-beta.26"
